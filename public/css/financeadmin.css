@@ -1,0 +1,17 @@
+body{
+    background-image: url('/assets/bg.jpg');
+    background-size: 100%;
+    backdrop-filter: grayscale(80%) blur(15px) brightness(85%);
+}
+.inputfield{
+    margin-top:10px;
+    border:1px solid rgb(255, 211, 68) ;
+    border-radius: 5px;
+    padding:5px;
+    width: 20%;
+    height:35px;
+ }
+
+ .inputfield:focus{
+    outline:2px solid rgb(252, 203, 45);
+ }
