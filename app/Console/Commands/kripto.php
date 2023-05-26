@@ -40,7 +40,7 @@ class kripto extends Command
     {
         $curl = curl_init();
         curl_setopt_array($curl, array(
-        CURLOPT_URL => 'https://www.nosyapi.com/apiv2/economy/getCoinDetailsv2?code=ETHTRY,BTCTRY,TRXTRY,DOGETRY,ETCTRY,DASHTRY,LTCTRY,USDTTRY',
+        CURLOPT_URL => 
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
@@ -49,7 +49,7 @@ class kripto extends Command
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'GET',
         CURLOPT_HTTPHEADER => array(
-        'Authorization: Bearer WuHlP6G6a2HogI7oEJBf5Nht4g8OGJQnLCPCruAV6uTGHIbe83MkesN3BHog'
+       
         ),
         ));
         $response = curl_exec($curl);
