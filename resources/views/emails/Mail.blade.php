@@ -18,6 +18,6 @@
 <p>Bulgar Levası: &nbsp;<span >{{$leva}}</span> Türk Lirası</p>
 
 <br><br><br><br>
-<h4>Abonelikten çıkmak, önerileriniz, sorularınız; daha fazla bilgilendirme, kripto para ve altın fiyatları için lütfen Web sitemizi ziyaret edin: www.guncelanlikdoviz.com</span></h4>
+
 
 
