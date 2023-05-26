@@ -41,8 +41,7 @@ class altin extends Command
 
         $curl = curl_init();
         curl_setopt_array($curl, array(
-        CURLOPT_URL => 'https://www.nosyapi.com/apiv2/economy/getCurrencyPersonal?code=ons,gram-altin,ceyrek-altin,yarim-altin,tam-altin,cumhuriyet-altini,ata-altin,14-ayar-altin,18-ayar-altin,22-ayar-bilezik,gumus',
-        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_URL => CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
         CURLOPT_TIMEOUT => 0,
@@ -50,7 +49,7 @@ class altin extends Command
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'GET',
         CURLOPT_HTTPHEADER => array(
-        'Authorization: Bearer WuHlP6G6a2HogI7oEJBf5Nht4g8OGJQnLCPCruAV6uTGHIbe83MkesN3BHog'
+        
         ),
         ));
         $response2 = curl_exec($curl);
